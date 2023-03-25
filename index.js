@@ -48,7 +48,7 @@ bot.launch();
 const askOpenAI = async (message) => {
   try {
     const { data } = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "gpt-4",
       prompt: message,
       max_tokens: 256,
       top_p: 1,
