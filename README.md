@@ -2,13 +2,13 @@
 artificial-adviser-telegram-bot
 
 
-##For local development 
+## For local development 
 
 ```
 npm run dev
 ```
 
-##For deployment 
+## For deployment 
 
 ```
 npm run start
